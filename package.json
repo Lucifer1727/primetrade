@@ -1,0 +1,28 @@
+{
+  "name": "primetrade-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack task management application with Next.js frontend and Express.js backend",
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend:prod": "cd backend && npm start",
+    "start:frontend:prod": "cd frontend && npm run build && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "clean": "cd backend && rm -rf node_modules && cd ../frontend && rm -rf node_modules && rm -rf node_modules"
+  },
+  "keywords": [
+    "task-management",
+    "nextjs",
+    "express",
+    "mongodb",
+    "jwt",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucifer1727/primetradeBack.git"
+  }
+}
